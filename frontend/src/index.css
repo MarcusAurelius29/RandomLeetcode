@@ -1,0 +1,204 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  background: linear-gradient(135deg, #74b9ff, #0984e3);
+}
+
+.heading {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.subheading {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #eee;
+}
+
+.main-input, .difficulty {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 15px;
+  margin: 15px 0;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+h3, h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+label {
+  display: block;
+  margin-bottom: 12px;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.easy {
+  color: #27ae60;
+}
+
+.medium {
+  color: #e67e22;
+}
+
+.hard {
+  color: #e74c3c;
+}
+
+.submit-button {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.submit {
+  background-color: #4CAF50; /* Green background color */
+  color: white; /* White text color */
+  border: none; /* No border */
+  padding: 10px 20px; /* Add some padding */
+  font-size: 16px; /* Set font size */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  border-radius: 5px; /* Add rounded corners */
+}
+
+.submit:hover {
+  background-color: #45a049; /* Darker green color on hover */
+}
+
+/* Container for Help Section */
+.help-container {
+  background-color: #ffffff; /* Change to a lighter background color */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Increase shadow depth */
+  width: 80%; /* Make the container wider */
+  max-width: 400px; /* Limit the maximum width */
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Form Section */
+.form-action {
+  margin-top: 20px;
+}
+
+/* Problem Title Input */
+.problem-title {
+  width: 100%;
+  padding: 12px; /* Increase padding for a more comfortable input */
+  margin-bottom: 20px; /* Increase spacing for better readability */
+  border: 2px solid #3498db; /* Add a border to make it stand out */
+  border-radius: 6px;
+}
+
+/* Checkbox Styles */
+.type-checkbox {
+  margin-right: 10px;
+}
+
+/* Text Styles */
+p {
+  font-size: 18px; /* Slightly increase font size */
+  font-weight: normal; /* Remove bold for regular text */
+}
+
+label {
+  display: block;
+  margin-bottom: 15px; /* Increase spacing between labels */
+}
+
+h1 {
+  font-size: 28px; /* Increase heading size for emphasis */
+  color: #333;
+  margin-bottom: 30px; /* Increase spacing under heading */
+}
+
+.HELP-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.form-action-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.problem-title-1 {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.type-checkbox-1 {
+  margin-right: 10px;
+}
+
+.difficulty-checkbox {
+  margin-right: 10px;
+}
+
+.Submit {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.Submit:hover {
+  background-color: #0056b3;
+}
+
+button[type="button"] {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="button"]:hover {
+  background-color: #ddd;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between; /* Space evenly between buttons */
+  margin-top: 20px; /* Add some spacing between the buttons and other form elements */
+}
+
+.Submit {
+  flex: 1; /* Distribute available space equally between buttons */
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 10px; /* Add some spacing between buttons */
+}
+
+.Submit:last-child {
+  margin-right: 0; /* Remove margin from the last button */
+}
